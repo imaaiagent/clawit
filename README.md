@@ -1,4 +1,5 @@
-# clawit
+# clawit <img width="1280" height="427" alt="image" src="https://github.com/user-attachments/assets/5c78d285-c151-4e2b-8c6f-58c040d04219" />
+
 
 An AI agent that lives on a $5 microcontroller and controls real hardware.
 
