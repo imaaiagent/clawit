@@ -260,20 +260,6 @@ The dev board alone is enough to get started - chip temperature sensor, clock se
 
 ### Option A: Setup Portal (no CLI needed)
 
-Flash the firmware from your browser and configure from your phone:
-
-1. Go to **[clawit.io/flash.html]()** and click **Flash Now** (requires Chrome/Edge with WebSerial)
-2. The ESP32 boots, finds no WiFi config, and starts an open AP called **clawit-Setup**
-3. Connect to the AP from your phone - a setup page opens automatically
-4. Fill in your WiFi credentials, API key, and any optional settings
-5. Hit **Save & Reboot** - the device connects to your network and is ready to use
-
-The setup portal also activates if WiFi connection fails (wrong password, network down). The LED pulses cyan while the portal is active.
-
-To reconfigure later, type `/setup` in the serial monitor to re-enter the portal at any time.
-
-### Option B: Manual Config (PlatformIO)
-
 #### 1. Install PlatformIO
 
 ```
