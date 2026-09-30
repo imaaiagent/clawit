@@ -1,0 +1,14 @@
+{
+  "wifi_ssid": "",
+  "wifi_pass": "",
+  "api_key": "",
+  "model": "google/gemini-2.5-flash",
+  "device_name": "clawit-01",
+  "api_base_url": "",
+  "nats_host": "",
+  "nats_port": "4222",
+  "telegram_token": "",
+  "telegram_chat_id": "",
+  "telegram_cooldown": "15",
+  "timezone": "UTC0"
+}
