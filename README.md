@@ -4,8 +4,6 @@ An AI agent that lives on a $5 microcontroller and controls real hardware.
 
 **Supported chips:** ESP32-C6, ESP32-S3, ESP32-C3 (4 MB flash required)
 
-**[Flash it to your ESP32 from the browser]()** - no tools to install, configure from your phone. The web flasher auto-detects your chip.
-
 Tell it what you want in plain language - over Telegram, serial, or NATS - and it wires up GPIO pins, reads sensors, switches relays, and sets up automation rules that keep running without the AI. It remembers your preferences across reboots, knows what time it is, can talk to other clawit devices on the network, and bridges to any serial device - Arduinos, GPS modules, CO2 sensors, RFID readers - over UART.
 
 ```
